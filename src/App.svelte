@@ -64,7 +64,9 @@
       <Route path="/pricing" component={RecruitingPricing} />
     </Router>
 	  </div>
-	
+
+ <img src="https://recruitly.io/wp-content/uploads/2020/10/recruitly-logo-300x83.png" onclick="window.location.href='/'" />
+
 <div class="container">
 	  <h1 class="display-4"style="color:blue;font-weight: 700;" >Welcome To Recruitment</h1>
 	   <h1 class="display-4"style="color:blue;font-weight: 700;"><span class="feature-text" style="color: {features[featureIndex].color}; font-weight: 700;">
