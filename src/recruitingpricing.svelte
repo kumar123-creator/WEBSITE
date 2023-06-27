@@ -236,9 +236,10 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
   }
 
   .compare-section h1 {
-    color: blue;
+    color: red;
+    text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 5rem;
     margin-top: 50px;
   }
 
