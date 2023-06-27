@@ -1,3 +1,5 @@
+ <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 20px;">
+
 <script>
     import 'bootstrap/dist/css/bootstrap.min.css';
     import { Link } from "svelte-routing";
@@ -35,29 +37,33 @@
       </nav>
     </div>
     <div class="automation-component">
-      <div class="hero-section">
-        <h2 style="color: darkmagenta;">Recruiting Automation</h2>
-  <p style="color:black; font-weight: 300;">Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each day.</p>
-  <p style="color:black; font-weight: 500;">Recruiting automation allows you to focus on the work that matters!</p>
-  <p style="color:black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions and amend them when necessary with ease.</p>
-        </div>
+    <section class="hero-section">
+      <h2 style="color: darkmagenta;">Recruiting Automation</h2>
+      <p style="color: black; font-weight: 300;">Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each day.</p>
+      <p style="color: black; font-weight: 500;">Recruiting automation allows you to focus on the work that matters!</p>
+      <p style="color: black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions, and amend them when necessary with ease.</p>
+    </section>
+
  <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 20px;">
-      <h style="color:blue; ">Why Automate</h>
-       <section class="testimonials-section">
-      <div class="feature-card">
-        <i class="fa fa-search"></i>
-        <h3 style="color:purple; font-weight:600;">Save time</h3>
-        <h6>Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each week.</h6>
-      </div>
-      <div class="feature-card">
-        <i class="fa fa-users"></i>
-        <h3 style="color:purple; font-weight:600;">Be in control</h3>
-        <h6>Ensure that recruiting standards are enforced automatically, and build a streamlined and error-proof workflow.</h6>
-      </div>
-      <div class="feature-card">
-        <i class="fa fa-cogs"></i>
-        <h3 style="color:purple; font-weight:600;">Automate everything</h3>
-        <h6>Automate every step of your recruiting process, from sourcing to onboarding, and save valuable time and effort.</h6>
+
+<section class="automation-reasons-section">
+      <h3 style="color: blue;">Why Automate</h3>
+      <div class="testimonials-section">
+        <div class="feature-card">
+          <i class="fa fa-search"></i>
+          <h4 style="color: purple; font-weight: 600;">Save time</h4>
+          <p>Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each week.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa fa-users"></i>
+          <h4 style="color: purple; font-weight: 600;">Be in control</h4>
+          <p>Ensure that recruiting standards are enforced automatically, and build a streamlined and error-proof workflow.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fa fa-cogs"></i>
+          <h4 style="color: purple; font-weight: 600;">Automate everything</h4>
+          <p>Automate every step of your recruiting process, from sourcing to onboarding, and save valuable time and effort.</p>
+        </div>
       </div>
     </section>
     </div>
@@ -67,11 +73,6 @@
     .spacer {
       margin: 0 10px;
     }
-    .hero-section {
-    text-align: center;
-    margin-top: -1100px;
-    margin-bottom: 10px;
-  }
   .recruiting-automation-section h{
      
      font-weight: bold;
@@ -102,10 +103,6 @@
     font-size: 1rem;
     margin-top: 10px;
    }
- 
-
-  
-   
     
     body {
       margin: 0;
@@ -131,9 +128,6 @@
 	  cursor: pointer;
 	}
    
-
-   
-
     .automation-component ul {
       list-style-type: disc;
       margin-left: 20px;
@@ -162,6 +156,52 @@
     margin-right: 0px;
   }
 
-   
+ .hero-section {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .automation-reasons-section {
+    margin-top: 30px;
+  }
+
+  .automation-reasons-section h3 {
+    color: blue;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 80px;
+  }
+
+  .testimonials-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .feature-card {
+    width: 30%;
+    text-align: center;
+  }
+
+  .feature-card i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: purple;
+  }
+
+  .feature-card h4 {
+    color: purple;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-top: 50px;
+  }
+
+  .feature-card p {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
   </style>
   
