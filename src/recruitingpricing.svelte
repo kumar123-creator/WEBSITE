@@ -1,13 +1,13 @@
 <script>
-   import 'bootstrap/dist/css/bootstrap.min.css';
-   import { Link } from "svelte-routing";
-  import { createEventDispatcher } from 'svelte';
-  
- 
+  import { createEventDispatcher } from 'svelte';  
+  import 'bootstrap/dist/css/bootstrap.min.css';
+  import { Link } from "svelte-routing";
   import Popup from './Popup.svelte';
 
 let isPopupOpen = false;
+
 const dispatch = createEventDispatcher();
+
 function openWhyRecruitlyPopup() {
 isPopupOpen = true;
 }
@@ -41,13 +41,10 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
       <div class="hero-section">
         <h1 style="color:blue;">Recruitly Pricing</h1>
         <p>Recruitly is a pay-as-you-go service  excluding 1-Week FREE trial all payments should be made upfront before using the service.
-        <p>If the Customer’s place of business is within the UK we will add UK VAT to our fees at the then current rate.</p>  
-        <p>If your place of business is in the EU (excluding the UK) and we are not obliged to charge you VAT (due to current applicable law).
-        <p> we will only exclude VAT from invoices if you provide us with a valid VAT registration number or other proof that you are using the Service for business purposes.</p>
       </div>
       <section class="features-section">
         <div class="container-fluid mt-4">
-          <h1 style="color:crimson;">Affordable plans</h1>
+          <h1 style="color:orange;">Affordable plans</h1>
          
           <div class="row">
             <div class="col p-3 bg-success text-white" style="color: blue; font-weight: 700;">
