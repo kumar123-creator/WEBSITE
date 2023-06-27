@@ -38,9 +38,8 @@
       <div class="hero-section">
         <h2 style="color: darkmagenta;">Recruiting Automation</h2>
         <p style="color:black; font-weight: 700;">Recruiting automation allows you to focus on the work that matters!</p>
-        <p1 style="color:black; font-weight: 600;">Automation can be key to recruiting efficiency, but only if done right.</p1>
-        <p2 style="color:black; font-weight: 600;">It takes time and effort to create the right workflow that is optimal for your business.</p2>
-      </div>
+        </div>
+ <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 20px;">
       <h style="color:blue; ">Why Automate</h>
       <section class="testimonials-section">
         <table>
