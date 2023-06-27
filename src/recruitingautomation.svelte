@@ -36,7 +36,7 @@
     </div>
     <div class="automation-component">
     <section class="hero-section">
-      <h2 style="color: darkmagenta;">Recruiting Automation</h2>
+      <h2 style="color: darkmagenta; margin-bottom: 10px;">Recruiting Automation</h2>
       <p style="color: black; font-weight: 300;">Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each day.</p>
       <p style="color: black; font-weight: 500;">Recruiting automation allows you to focus on the work that matters!</p>
       <p style="color: black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions, and amend them when necessary with ease.</p>
@@ -45,7 +45,7 @@
  <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 1000px; margin-bottom: 50px;">
 
 <section class="automation-reasons-section">
-      <h3 style="color: blue;">Why Automate</h3>
+      <h3 style="color: blue; text-align: center; margin-bottom: 20px;">Why Automate</h3>
       <div class="testimonials-section">
         <div class="feature-card">
           <i class="fa fa-search"></i>
