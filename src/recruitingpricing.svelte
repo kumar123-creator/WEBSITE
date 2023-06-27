@@ -125,13 +125,8 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
     </section>
   </div>
 </section>
-
-      </div>
-  </section>
   
   <style>
-
-
     .hero-section {
         text-align: center;
     margin-top: -1200px;
