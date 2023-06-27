@@ -186,6 +186,7 @@
 
   .hero-section {
     text-align: center;
+    margin-top: -1100px;
     margin-bottom: 10px;
   }
 
