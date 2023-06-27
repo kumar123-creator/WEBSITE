@@ -241,6 +241,7 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
     font-weight: bold;
     font-size: 3rem;
     margin-top: 50px;
+    margin-bottom: 10px;
   }
 
   .compare-section table {
