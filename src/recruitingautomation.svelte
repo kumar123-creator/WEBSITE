@@ -37,60 +37,29 @@
     <div class="automation-component">
       <div class="hero-section">
         <h2 style="color: darkmagenta;">Recruiting Automation</h2>
-        <p style="color:black; font-weight: 700;">Recruiting automation allows you to focus on the work that matters!</p>
+  <p style="color:black; font-weight: 300;">Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each day.</p>
+  <p style="color:black; font-weight: 500;">Recruiting automation allows you to focus on the work that matters!</p>
+  <p style="color:black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions and amend them when necessary with ease.</p>
         </div>
  <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 20px;">
       <h style="color:blue; ">Why Automate</h>
-      <section class="testimonials-section">
-        <table>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="feature-card">
-                  <i class="fa fa-search"></i>
-                  <h3 style="color:purple; font-weight:600;">Save time</h3>
-                  <h6>Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each week.</h6>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-card">
-                  <i class="fa fa-envelope"></i>
-                  <h3 style="color:purple; font-weight:600;">Proactive Interaction</h3>
-                  <h6>Using Automation + Email Sequences you can engage with your passive contacts and candidates..</h6>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-card">
-                  <i class="fa fa-users"></i>
-                  <h3 style="color:purple; font-weight:600;">Contain Costs</h3>
-                  <h6>Automating redundant recruiting activities reduces the need for extensive labor.</h6>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-card">
-                  <i class="fa fa-users"></i>
-                  <h3 style="color:purple; font-weight:600;">Improve Consistency and Accuracy</h3>
-                  <h6>The possibility of errors with manual processing is a major drawback, especially when there are huge volumes involved.</h6>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-card">
-                  <i class="fa fa-users"></i>
-                  <h3 style="color:purple; font-weight:600;">Happy Recruiters</h3>
-                  <h6>Executing recurring activities on a daily basis gets mundane and monotonous for employees.</h6>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="feature-card">
-                  <i class="fa fa-users"></i>
-                  <h3 style="color:purple; font-weight:600;">Be in control</h3>
-                  <h6>Ensure that recruiting standards are enforced automatically, and build a streamlined and an error proof workflow.</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </table>
-      </section>
+       <section class="testimonials-section">
+      <div class="feature-card">
+        <i class="fa fa-search"></i>
+        <h3 style="color:purple; font-weight:600;">Save time</h3>
+        <h6>Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each week.</h6>
+      </div>
+      <div class="feature-card">
+        <i class="fa fa-users"></i>
+        <h3 style="color:purple; font-weight:600;">Be in control</h3>
+        <h6>Ensure that recruiting standards are enforced automatically, and build a streamlined and error-proof workflow.</h6>
+      </div>
+      <div class="feature-card">
+        <i class="fa fa-cogs"></i>
+        <h3 style="color:purple; font-weight:600;">Automate everything</h3>
+        <h6>Automate every step of your recruiting process, from sourcing to onboarding, and save valuable time and effort.</h6>
+      </div>
+    </section>
     </div>
   </section>
   
