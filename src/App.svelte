@@ -2,14 +2,16 @@
 	import { createEventDispatcher} from 'svelte';
 	import 'bootstrap/dist/css/bootstrap.min.css';
 	import { navigate } from "svelte-navigator";
-  const dispatch = createEventDispatcher();
 	import { Router, Link, Route } from "svelte-routing";
 	import RecruitingAutomation from "./recruitingautomation.svelte";
 	import RecruitingPricing from "./recruitingpricing.svelte";
-  import Popup from './Popup.svelte';
- 
+        import Popup from './Popup.svelte';
+
+  const dispatch = createEventDispatcher();
+
    let isPopupOpen = false;
    let showOverviewPopup = false;
+
   function openWhyRecruitlyPopup() {
   isPopupOpen = true;
     }
@@ -55,34 +57,21 @@
 	  <a on:click={openWhyRecruitlyPopup}  class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Why Recruitly</a>
 	  <span class="spacer"></span>
     <Router>
-		 
-
-			<a on:click={navigateToAutomation} class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Automation</a>
+      <a on:click={navigateToAutomation} class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Automation</a>
       <span class="spacer"></span>
-			<a on:click={navigateToPricing} class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Pricing</a>
-      
-		 
-	
-		 
-		  <Route path="/automation" component={RecruitingAutomation} />
-		  <Route path="/pricing" component={RecruitingPricing} />
-		</Router>
-	
-	   
+      <a on:click={navigateToPricing} class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Pricing</a
+      <Route path="/automation" component={RecruitingAutomation} />
+      <Route path="/pricing" component={RecruitingPricing} />
+    </Router>
 	  </div>
 	
-  
-	
-	
-	<div class="container">
-	  <h1 class="display-4"style="color:blue;font-weight: 700;" > Recruitment</h1>
+<div class="container">
+	  <h1 class="display-4"style="color:blue;font-weight: 700;" >Welcome To Recruitment</h1>
 	   <h1 class="display-4"style="color:blue;font-weight: 700;"><span class="feature-text" style="color: {features[featureIndex].color}; font-weight: 700;">
 		{features[featureIndex].text}
 	  </span>
 	  System</h1>
-		
-	  
-	 <p class="card-text">Recruitly® is built to streamline agency recruitment processes and help businesses grow as a result.</p>
+		 <p class="card-text">Recruitly® is built to streamline agency recruitment processes and help businesses grow as a result.</p>
 	</div>
 	<div class="overview-button-container">
 	  <button class="overview-button" on:click={openOverview}>Overview</button>
@@ -93,21 +82,21 @@
 		  <div class="col-md-4">
 			<div class="feature-card">
 			  <i class="fa fa-search"></i>
-			  <h3 style="color:red; font-weight: 700;">Powerful Search</h3>
+			  <h3 style="color:black; font-weight: 700;">Powerful Search</h3>
 			  <p>Efficiently search and filter through a large pool of candidates.</p>
 			</div>
 		  </div>
 		  <div class="col-md-4">
 			<div class="feature-card">
 			  <i class="fa fa-envelope"></i>
-			  <h3 style="color:blue;font-weight: 700;">Email Integration</h3>
+			  <h3 style="color:yellow;font-weight: 700;">Email Integration</h3>
 			  <p>Seamlessly integrate with your email client for easy communication.</p>
 			</div>
 		  </div>
 		  <div class="col-md-4">
 			<div class="feature-card">
 			  <i class="fa fa-users"></i>
-			  <h3 style="color:purple;font-weight: 700;">Collaborative Hiring</h3>
+			  <h3 style="color:red;font-weight: 700;">Collaborative Hiring</h3>
 			  <p>Collaborate with your team to make better hiring decisions.</p>
 			</div>
 		  </div>
@@ -119,7 +108,7 @@
 	  <div class="container">
 		<div class="row">
 		  <div class="col-md-6 offset-md-3">
-			<h2 style="color:green;font-weight: 1000;">Faster, Smarter and Effective Recruitment CRM</h2>
+			<h2 style="color:orange;font-weight: 1000;">Faster, Smarter and Effective Recruitment CRM</h2>
 			<div class="testimonial">
 			  <p>Recruit faster and smarter with our customisable pipelines, built-in job posting and out-of-the-box integrations with the tools you already use and love.</p>
 			 
@@ -134,7 +123,7 @@
 	  <div class="container">
 		<div class="row">
 		  <div class="col-md-6 offset-md-3">
-			<h2 style="color:darkred;font-weight: 700;">What Our Clients Say</h2>
+			<h2 style="color:purple;font-weight: 700;">What Our Clients Say</h2>
 			<div class="testimonial">
 			  <p>"Recuitly.io has transformed our hiring process. We found the perfect candidates in no time."</p>
 			  <p class="testimonial-author">John Doe, CEO at ABC Company</p>
