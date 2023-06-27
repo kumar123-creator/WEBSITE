@@ -19,7 +19,7 @@
 
   let featureIndex = 0;
 	const features = [
-	  { text: 'ATS', color: 'blue' },
+	  { text: 'ATS', color: 'red' },
 	  { text: 'CRM', color: 'green' },
 	  { text: 'Marketing', color: 'purple' }
 	];
