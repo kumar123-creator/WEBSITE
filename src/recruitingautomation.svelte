@@ -1,5 +1,3 @@
- <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 20px;">
-
 <script>
     import 'bootstrap/dist/css/bootstrap.min.css';
     import { Link } from "svelte-routing";
