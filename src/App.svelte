@@ -39,12 +39,16 @@
 	}, 2000);
   
 	function navigateToAutomation() {
-    window.location.href =  "/automation";
+        window.location.href =  "/automation";
 	}
   
 	function navigateToPricing() {
-    window.location.href ="/pricing";
+        window.location.href ="/pricing";
 	}
+
+          function redirectToHome() {
+          window.location.href = "/";
+          }
    
   </script>
    {#if isPopupOpen}
