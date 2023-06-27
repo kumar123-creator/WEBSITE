@@ -36,7 +36,7 @@
   </div>
   <div class="automation-component">
     <section class="hero-section">
-      <h2 style="color: darkmagenta; margin-bottom: 10px; margin-top: -1100px;">Recruiting Automation</h2>
+      <h2 style="color: darkmagenta;">Recruiting Automation</h2>
       <p style="color: black; font-weight: 300;">Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each day.</p>
       <p style="color: black; font-weight: 500;">Recruiting automation allows you to focus on the work that matters!</p>
       <p style="color: black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions, and amend them when necessary with ease.</p>
