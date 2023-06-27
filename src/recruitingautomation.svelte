@@ -41,30 +41,28 @@
       <p style="color: black; font-weight: 500;">Recruiting automation allows you to focus on the work that matters!</p>
       <p style="color: black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions, and amend them when necessary with ease.</p>
     </section>
-
-    <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 700px; margin-bottom: 50px;">
-
-    <section class="automation-reasons-section">
-      <h3 style="color: blue; text-align: center; margin-bottom: 20px;">Why Automate</h3>
-      <div class="testimonials-section">
-        <div class="feature-card">
-          <i class="fa fa-search"></i>
-          <h4 style="color: purple; font-weight: 600;">Save time</h4>
-          <p>Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each week.</p>
-        </div>
-        <div class="feature-card">
-          <i class="fa fa-users"></i>
-          <h4 style="color: purple; font-weight: 600;">Be in control</h4>
-          <p>Ensure that recruiting standards are enforced automatically, and build a streamlined and error-proof workflow.</p>
-        </div>
-        <div class="feature-card">
-          <i class="fa fa-cogs"></i>
-          <h4 style="color: purple; font-weight: 600;">Automate everything</h4>
-          <p>Automate every step of your recruiting process, from sourcing to onboarding, and save valuable time and effort.</p>
-        </div>
-      </div>
-    </section>
   </div>
+
+  <section class="automation-reasons-section">
+    <h3 style="color: blue; text-align: center; margin-bottom: 20px;">Why Automate</h3>
+    <div class="testimonials-section">
+      <div class="feature-card">
+        <i class="fa fa-search"></i>
+        <h4 style="color: purple; font-weight: 600;">Save time</h4>
+        <p>Increase efficiency by creating workflows that automate repetitive and common tasks, save hours each week.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa fa-users"></i>
+        <h4 style="color: purple; font-weight: 600;">Be in control</h4>
+        <p>Ensure that recruiting standards are enforced automatically, and build a streamlined and error-proof workflow.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa fa-cogs"></i>
+        <h4 style="color: purple; font-weight: 600;">Automate everything</h4>
+        <p>Automate every step of your recruiting process, from sourcing to onboarding, and save valuable time and effort.</p>
+      </div>
+    </div>
+  </section>
 </section>
 
 <style>
@@ -150,7 +148,6 @@
 
   .hero-section {
     text-align: center;
-    margin-top: -1100px;
     margin-bottom: 10px;
   }
 
@@ -197,4 +194,3 @@
     margin-top: 10px;
   }
 </style>
-
