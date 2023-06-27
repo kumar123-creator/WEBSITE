@@ -47,7 +47,7 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
 
  <section class="compare-section">
       <div class="container-fluid">
-        <h1 style="color: blue;">Compare Plans</h1>
+        <h1 style="color: red;">Compare Plans</h1>
         <table class="table table-bordered">
           <thead>
             <tr>
@@ -239,7 +239,7 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
     color: red;
     text-align: center;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 3rem;
     margin-top: 50px;
   }
 
