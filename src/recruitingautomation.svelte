@@ -42,7 +42,7 @@
       <p style="color: black; font-weight: 300;">Automation can be key to recruiting efficiency, but only if done right. It takes time and effort to create the right workflow that is optimal for your business. Our intuitive automation platform allows you to configure the triggers, actions, and amend them when necessary with ease.</p>
     </section>
 
- <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 20px;">
+ <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 500px; margin-bottom: 50px;">
 
 <section class="automation-reasons-section">
       <h3 style="color: blue;">Why Automate</h3>
@@ -160,6 +160,7 @@
   }
 
   .automation-reasons-section {
+    text-align: center;
     margin-top: 30px;
   }
 
