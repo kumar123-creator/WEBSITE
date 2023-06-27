@@ -42,7 +42,11 @@
         <p2 style="color:black; font-weight: 600;">It takes time and effort to create the right workflow that is optimal for your business.</p2>
       </div>
 
-      <h style="color:pink; ">Why Automate</h>
+
+ <img src="https://recruitly.io/wp-content/uploads/2021/08/automation-header.svg" alt="Recruiting Automation Image" style="width: 100%; max-width: 700px; margin-bottom: 50px;">
+
+
+      <h style="color:green; ">Why Automate</h>
       <section class="testimonials-section">
         <table>
           <div class="container">
