@@ -37,11 +37,9 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
          </ul>
           </nav>
           </div>
+
+
     <div class="pricing-component">
-      <div class="hero-section">
-        <h1 style="color:blue;">Recruitly Pricing</h1>
-        <p>Recruitly is a pay-as-you-go service  excluding 1-Week FREE trial all payments should be made upfront before using the service.
-      </div>
       <section class="features-section">
         <div class="container-fluid mt-4">
           <h1 style="color:orange;">Affordable plans</h1>
@@ -123,6 +121,10 @@ dispatch('openWhyRecruitlyPopup', { closePopup });
         </table>
       </div>
     </section>
+<div class="hero-section">
+      <h1 style="color: blue;">Recruitly Pricing</h1>
+      <p>Recruitly is a pay-as-you-go service, excluding 1-Week FREE trial. All payments should be made upfront before using the service.</p>
+    </div>
   </div>
 </section>
   
