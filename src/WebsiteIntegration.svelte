@@ -48,12 +48,16 @@
       <section class="testimonials-section">
       
             <i class="fa fa-search"></i>
-            <h2 style="color: blue; font-weight:600;">Drag&Drop</h2>
-            <h2 style="color: green; font-weight:600;">Recruitment Websites</h2>
-            <p>Recruitly offers a lightweight WordPress plugin to help building recruitment websites faster and for adding</p>
-            <p>job-board functionality with just simple clicks. Being WordPress shortcode based, it can work with any</p>
-             <p>theme and is really simple to install and configure. Recruitly also offers a line of Elementor and DIVI widgets</p>
-             <p>to help you fine-tune your design elements and adjust features, so you can get the most out of your pages.</p>
+            <h2 style="color: blue; font-weight:600;">WordPress Plugin</h2>
+            <p>Recruitly WordPress plugin establishes a 360 degree integration with your Recruitly database and </p>
+            <p>turns your website into a fully featured job-board within a matter of minutes.</p>
+
+
+
+
+https://recruitly.io/wp-content/uploads/2020/11/recruitly_plugin_wordpress.png
+
+
       </section>
              
         </section>
