@@ -44,18 +44,24 @@
         <img   width="300" height="300"  src = https://i0.wp.com/naijaknowhow.net/wp-content/uploads/2023/02/Image-Extension-for-Chrome.png/>
       
       </div>
-      <h style="color:blue; ">Source Leads, Contacts and Candidates</h>
-      
-<section class="testimonials-section">
+     
+     <h style="color:blue; ">Source Leads, Contacts and Candidates</h>
+      <section class="testimonials-section">
        <div class="container">
            <h6>No more back and forth or manual data entry, let Recruitly take care of extracting all the data for you.</h6>
            <h6>With just a single click you can source leads, contacts and candidates and add them to your Recruitly account!.</h6>
            <img   width="600" height="600"  src= https://recruitly.io/wp-content/uploads/2021/09/extension-addnew-1024x1024.png/>
+       </div>
+
+   <h style="color:green; ">Update Records from Google Chrome Extension</h>
+      <section class="testimonials-section">
+       <div class="container">
+           <h6>Candidate updated their contact details? Changed their role? or a Contact switched company?</h6>
+           <h6>No problem! You can directly update these details from Chrome Extension without logging into your Recruitly account.</h6>
+           <img   width="600" height="600"  src= https://recruitly.io/wp-content/uploads/2021/09/update-linkedin-1024x1024.png/>
       
-          
-                </div>
+             </div>
               </div>
-             
    </section>
   
   
