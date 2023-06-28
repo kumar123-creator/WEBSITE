@@ -40,7 +40,7 @@
     <div class="hero-section">
       <h2 style="color: darkmagenta;">Recruitment Email Marketing</h2>
       <p style="color:black; font-weight: 700;">Reach your audience and improve your branding, with an email marketing solution built right into  recruitment database. </p>
-     <h2 style="color: red;">Design Beautiful Templates</h2>
+     <p style="color:red; font-weight: 1000;">Design Beautiful Templates</p>
     <p style="color:black; font-weight: 600;">Recruitly's intuitive email editor offers easiest, quickest way to design elegant, mobile responsive emails with little effort. </p>
     </div>
 
