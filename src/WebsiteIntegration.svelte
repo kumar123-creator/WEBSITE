@@ -51,20 +51,9 @@
             <h2 style="color: blue; font-weight:600;">WordPress Plugin</h2>
             <p>Recruitly WordPress plugin establishes a 360 degree integration with your Recruitly database and </p>
             <p>turns your website into a fully featured job-board within a matter of minutes.</p>
-
-
-
-
-   <img src = "https://recruitly.io/wp-content/uploads/2020/11/recruitly_plugin_wordpress.png" alt="Recruitly WordPress Plugin" style="width: 100%; max-width: 200px; margin-bottom: 50px" />
-
-
-
-
-
+             <img src = "https://recruitly.io/wp-content/uploads/2020/11/recruitly_plugin_wordpress.png" alt="Recruitly WordPress Plugin" style="width: 100%; max-width: 500px; margin-bottom: 50px" />
       </section>
-             
-        </section>
-  
+             </section>
   <style>
     .spacer {
       margin: 0 10px;
