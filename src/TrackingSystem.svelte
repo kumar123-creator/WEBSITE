@@ -41,11 +41,13 @@
         <h2 style="color: darkmagenta;">Simple and Easy to Use</h2>
         <p style="color:black; font-weight: 700;">Recruitly Applicant Tracking Software is designed to boost recruiters productivity </p>
         <p>with UI that’s easy to navigate and lightning fast.</p>
-       <h2 style="color: blue;">Candidate Portal</h2>
         </div>
-
+ 
+<h2 style="color: blue;">Candidate Portal</h2>
+ <section class="testimonials-section">
+<div class="container">
  <img src = https://recruitly.io/wp-content/uploads/2020/10/crm-email-templates@2x.png />
-
+</div>
 
 
       <h style="color:blue; ">More Features</h>
