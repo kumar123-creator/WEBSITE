@@ -6,7 +6,6 @@
   import Popup from './Popup.svelte';
   import RecruitingAutomation from "./recruitingautomation.svelte";
   import RecruitingPricing from "./recruitingpricing.svelte";
-  import Popup from './Popup.svelte';
   import EM from './EM.svelte';
   import ATS from './ATS.svelte';
   import WI from './WI.svelte';
