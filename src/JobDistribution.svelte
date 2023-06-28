@@ -52,6 +52,17 @@
            <h6>your vacancies to multiple job boards, social media, and to your website instantly.</h6>
                 </div>
               </div>
+
+<h style="color:green; ">Boost Application Completion Rates</h>
+      <section class="testimonials-section">
+       
+          <div class="container">
+           <h6>One of the most common reasons that candidates desert an application midway through is that the process is simply too long.</h6>
+           <h6>Recruitly solves this problem elegantly by reducing the number of hops required to make a successful application.</h6>
+           <img src
+                </div>
+              </div>
+             
              
    </section>
   
