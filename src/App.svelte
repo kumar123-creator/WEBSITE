@@ -7,11 +7,7 @@
   import RecruitingAutomation from "./recruitingautomation.svelte";
   import RecruitingPricing from "./recruitingpricing.svelte";
         import emailmarketing from "./emailmarketing.svelte";
-        import TrackingSystem from "./TrackingSystem.svelte";
-        import WebsiteIntegration from './WebsiteIntegration.svelte';
-	import JobDistribution from './JobDistribution.svelte';
-	import SearchImport from "./SearchImport.svelte";
-        import ChromeExtension from './ChromeExtension.svelte';
+       
  
 const dispatch = createEventDispatcher();
 
@@ -74,11 +70,6 @@ const dispatch = createEventDispatcher();
                   <Route path="/automation" component={RecruitingAutomation} />
                   <Route path="/pricing" component={RecruitingPricing} />
                   <Route path="/Emailmarketing" component={emailmarketing} />
-		  <Route path="/Tracking_System" component={TrackingSystem } />
-		  <Route path="/Website_Integration"  component={WebsiteIntegration } />
-		  <Route path="/Job_Distribution"  component={JobDistribution} />
-		  <Route path="/Search_Import"  component={SearchImport} />
-		  <Route path="/Chrome_Extension"component={ChromeExtension} />
                 </Router>
   </div>
 
