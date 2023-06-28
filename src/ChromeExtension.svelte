@@ -41,17 +41,9 @@
         <h2 style="color: darkmagenta;">Google Chrome Extension</h2>
         <p style="color:black; font-weight: 700;">Easily source leads, contacts and candidates from LinkedIn and</p>
         <p>other websites using our revolutionary Google Chrome Extension.</p>
-        <img   width="300" height="300"  src = https://i0.wp.com/naijaknowhow.net/wp-content/uploads/2023/02/Image-Extension-for-Chrome.png/>
+        <img   width="300" height="200"  src = https://gadelkareem.com/wp-content/uploads/2019/06/Chrome-39-Brings-64-Bit-Support-for-Mac-465338-2.jpg/>
       
       </div>
-     
-     <h style="color:blue; ">Source Leads, Contacts and Candidates</h>
-      <section class="testimonials-section">
-       <div class="container">
-           <h6>No more back and forth or manual data entry, let Recruitly take care of extracting all the data for you.</h6>
-           <h6>With just a single click you can source leads, contacts and candidates and add them to your Recruitly account!.</h6>
-           <img   width="600" height="600"  src= https://recruitly.io/wp-content/uploads/2021/09/extension-addnew-1024x1024.png/>
-       </div>
 
    <h style="color:green; ">Update Records from Google Chrome Extension</h>
       <section class="testimonials-section">
