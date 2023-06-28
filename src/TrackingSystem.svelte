@@ -46,7 +46,7 @@
 <h2 style="color: blue;">Candidate Portal</h2>
  <section class="testimonials-section">
 <div class="container">
- <img src = https://recruitly.io/wp-content/uploads/2020/10/crm-email-templates@2x.png />
+ <p>Stay GDPR compliant by offering candidates full control over their consent and privacy settings, and full audit visibility..</p>
 </div>
 
 
