@@ -49,7 +49,7 @@
 
 
 
-   <img src = "https://recruitly.io/wp-content/uploads/2020/10/crm-email-templates@2x.png" alt="Recruitly Email Templates" style="width: 100%; max-width: 500px; margin-bottom: 50px" />
+   <img src = "https://recruitly.io/wp-content/uploads/2020/10/crm-email-templates@2x.png" alt="Recruitly Email Templates" style="width: 100%; max-width: 200px; margin-bottom: 50px" />
 
 
 
