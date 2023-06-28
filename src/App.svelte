@@ -7,7 +7,7 @@
   import RecruitingAutomation from "./recruitingautomation.svelte";
   import RecruitingPricing from "./recruitingpricing.svelte";
         import emailmarketing from "./emailmarketing.svelte";
-        import Trackingsystem from "./Trackingsystem.svelte";
+        import TrackingSystem from "./TrackingSystem.svelte";
         import WebsiteIntegration from './WebsiteIntegration.svelte';
 	import JobDistribution from './JobDistribution.svelte';
 	import SearchImport from "./SearchImport.svelte";
@@ -74,7 +74,7 @@ const dispatch = createEventDispatcher();
                   <Route path="/automation" component={RecruitingAutomation} />
                   <Route path="/pricing" component={RecruitingPricing} />
                   <Route path="/Emailmarketing" component={emailmarketing} />
-                  <Route path="/Tracking_System" component={Trackingsystem } />
+                  <Route path="/Tracking_System" component={TrackingSystem } />
 		  <Route path="/Website_Integration"  component={WebsiteIntegration } />
 		  <Route path="/Job_Distribution"  component={JobDistribution} />
 		  <Route path="/Search_Import"  component={SearchImport} />
