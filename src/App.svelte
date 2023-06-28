@@ -3,9 +3,16 @@
   import 'bootstrap/dist/css/bootstrap.min.css';
   import { navigate } from "svelte-navigator";
   import { Router, Link, Route } from "svelte-routing";
+  import Popup from './Popup.svelte';
   import RecruitingAutomation from "./recruitingautomation.svelte";
   import RecruitingPricing from "./recruitingpricing.svelte";
   import Popup from './Popup.svelte';
+  import EM from './EM.svelte';
+  import ATS from './ATS.svelte';
+  import WI from './WI.svelte';
+  import JD from './JD.svelte';
+  import SI from './SI.svelte';
+  import CE from './CE.svelte';
 
   const dispatch = createEventDispatcher();
 
@@ -65,6 +72,12 @@
       <Link to="/pricing" class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Pricing</Link>
       <Route path="/automation" component={RecruitingAutomation} />
       <Route path="/pricing" component={RecruitingPricing} />
+                  <Route path="/Emailmarketing"       component={EM} />
+		  <Route path="/Tracking_System"      component={ATS} />
+		  <Route path="/Website_Integration"  component={WI} />
+		  <Route path="/Job_Distribution"     component={JD} />
+		  <Route path="/Search_Import"        component={SI} />
+		  <Route path="/Chrome_Extension"     component={CE} />
     </Router>
   </div>
 
