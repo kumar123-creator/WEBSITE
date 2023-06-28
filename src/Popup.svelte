@@ -5,7 +5,7 @@
 	import { navigate } from "svelte-routing";
     const dispatch = createEventDispatcher();
 	import { Router, Link, Route } from "svelte-routing";
-    import Trackingsystem from "./Trackingsystem.svelte";
+    import TrackingSystem from "./TrackingSystem.svelte";
 	import SearchImport from "./SearchImport.svelte";
 	
 	export let closePopup;
