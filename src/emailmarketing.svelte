@@ -49,7 +49,7 @@
 
 
 
-<p style="color:green; font-weight: 900;">Measure Performance</p>
+<p style="color:green; font-weight: 1000;">Measure Performance</p>
 <p style="color:black; font-weight: 700;">You can track everything from who opened and clicked your campaigns, health of your email lists and performance of your campaigns and segments.</p>
 <p style="color:black; font-weight: 600;">Gain valuable insights to shape your email marketing strategies.</p>
   
