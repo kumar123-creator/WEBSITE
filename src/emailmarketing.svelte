@@ -46,12 +46,15 @@
 
 
     <img src = "https://recruitly.io/wp-content/uploads/2020/11/email-templates@2x-1024x800.png" alt="Recruitly Email Templates" style="width: 100%; max-width: 500px; margin-bottom: 50px" />
-
-
-
-<p style="color:green; font-weight: 900;">Measure Performance</p>
-<p style="color:black; font-weight: 700;">You can track everything from who opened and clicked your campaigns, health of your email lists and performance of your campaigns and segments.</p>
-<p style="color:black; font-weight: 600;">Gain valuable insights to shape your email marketing strategies.</p>
+ 
+<h style="color:green; ">Measure Performance</h>
+      <section class="testimonials-section">
+       <div class="container">
+           <h6>You can track everything from who opened and clicked your campaigns, health of your email lists and performance of your campaigns and segments.</h6>
+           <h6>Gain valuable insights to shape your email marketing strategies.</h6>
+           <img   width="300" height="200"  src= https://recruitly.io/wp-content/uploads/2020/11/measure-performance@2x-1024x738.png/>
+      
+             </div>
   
 
 <section class="testimonials-section">
