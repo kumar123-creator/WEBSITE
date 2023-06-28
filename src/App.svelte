@@ -7,7 +7,7 @@
   import RecruitingAutomation from "./recruitingautomation.svelte";
   import RecruitingPricing from "./recruitingpricing.svelte";
         import emailmarketing from "./emailmarketing.svelte";
-        import ApplicationTrackingSystem from "./ApplicationTrackingSystem.svelte";
+        import TrackingSystem from "./trackingSystem.svelte";
         import WebsiteIntegration from './WebsiteIntegration.svelte';
 	import JobDistribution from './JobDistribution.svelte';
 	import SearchImport from "./SearchImport.svelte";
@@ -43,18 +43,19 @@ const dispatch = createEventDispatcher();
   setInterval(() => {
     featureIndex = (featureIndex + 1) % features.length;
   }, 2000);
-
-  function navigateToAutomation() {
-    navigate("/automation");
+   
+        function navigateToAutomation() {
+    window.location.href =  "/automation";
+	}
+  
+	function navigateToPricing() {
+    window.location.href ="/pricing";
+	}
+	
+        function redirectToHome() {
+    window.location.href = "/";
   }
-
-  function navigateToPricing() {
-    navigate("/pricing");
-  }
-
-  function redirectToHome() {
-    navigate("/");
-  }
+  
 </script>
 
 {#if isPopupOpen}
@@ -73,15 +74,16 @@ const dispatch = createEventDispatcher();
                   <Route path="/automation" component={RecruitingAutomation} />
                   <Route path="/pricing" component={RecruitingPricing} />
                   <Route path="/Emailmarketing" component={emailmarketing} />
-		  <Route path="/Application_Tracking_System" component={ApplicationTrackingSystem } />
+		  <Route path="/Tracking_System" component={TrackingSystem } />
 		  <Route path="/Website_Integration"  component={WebsiteIntegration } />
 		  <Route path="/Job_Distribution"  component={JobDistribution} />
 		  <Route path="/Search_Import"  component={SearchImport} />
 		  <Route path="/Chrome_Extension"component={ChromeExtension} />
-    </Router>
+                </Router>
   </div>
 
-  <img src="https://recruitly.io/wp-content/uploads/2020/10/recruitly-logo-300x83.png" on:click={redirectToHome} />
+  <img src="https://recruitly.io/wp-content/uploads/2020/10/recruitly-logo-300x83.png" onclick="window.location.href='/'" />
+
 
 <div class="container">
 	  <h1 class="display-4"style="color:blue;font-weight: 700;" >Welcome To Recruitment</h1>
