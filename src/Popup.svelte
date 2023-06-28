@@ -1,7 +1,13 @@
 <script>
   import { Link } from 'svelte-routing';
+  import { createEventDispatcher } from 'svelte';
 
   export let closePopup;
+  const dispatch = createEventDispatcher();
+
+  function openWhyRecruitlyPopup() {
+    dispatch('openWhyRecruitlyPopup', { closePopup });
+  }
 </script>
 
 <div class="popup">
