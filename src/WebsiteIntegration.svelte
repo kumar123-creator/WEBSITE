@@ -55,7 +55,7 @@
 
 
 
-   <img src = "https://recruitly.io/wp-content/uploads/2020/11/recruitly_plugin_wordpress.png" alt="Recruitly WordPress Plugin" style="width: 100%; max-width: 500px; margin-bottom: 50px" />
+   <img src = "https://recruitly.io/wp-content/uploads/2020/11/recruitly_plugin_wordpress.png" alt="Recruitly WordPress Plugin" style="width: 100%; max-width: 200px; margin-bottom: 50px" />
 
 
 
