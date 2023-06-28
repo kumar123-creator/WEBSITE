@@ -6,14 +6,14 @@
   import Popup from './Popup.svelte';
   import RecruitingAutomation from "./recruitingautomation.svelte";
   import RecruitingPricing from "./recruitingpricing.svelte";
-  import EM from './EM.svelte';
-  import ATS from './ATS.svelte';
-  import WI from './WI.svelte';
-  import JD from './JD.svelte';
-  import SI from './SI.svelte';
-  import CE from './CE.svelte';
-
-  const dispatch = createEventDispatcher();
+        import emailmarketing from "./emailmarketing.svelte";
+        import Trackingsystem from "./trackingsystem.svelte";
+        import WebsiteIntegration from './WebsiteIntegration.svelte';
+	import JobDistribution from './JobDistribution.svelte';
+	import SearchImport from "./SearchImport.svelte";
+        import ChromeExtension from './ChromeExtension.svelte';
+ 
+const dispatch = createEventDispatcher();
 
   let isPopupOpen = false;
   let showOverviewPopup = false;
@@ -71,12 +71,12 @@
       <Link to="/pricing" class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Pricing</Link>
       <Route path="/automation" component={RecruitingAutomation} />
       <Route path="/pricing" component={RecruitingPricing} />
-                  <Route path="/Emailmarketing"       component={EM} />
-		  <Route path="/Tracking_System"      component={ATS} />
-		  <Route path="/Website_Integration"  component={WI} />
-		  <Route path="/Job_Distribution"     component={JD} />
-		  <Route path="/Search_Import"        component={SI} />
-		  <Route path="/Chrome_Extension"     component={CE} />
+                <Route path="/Emailmarketing" component={emailmarketing} />
+		  <Route path="/Tracking_System" component={Trackingsystem } />
+		  <Route path="/Website_Integration"  component={WebsiteIntegration } />
+		  <Route path="/Job_Distribution"  component={JobDistribution} />
+		  <Route path="/Search_Import"  component={SearchImport} />
+		  <Route path="/Chrome_Extension"component={ChromeExtension} />
     </Router>
   </div>
 
