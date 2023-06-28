@@ -61,7 +61,7 @@
             <div class="col-md-4">
               <div class="feature-card">
                 <i class="fa fa-search"></i>
-                <h3 style="color:purple; font-weight:600;">Email Campaigns</h3>
+                <h3 style="color:blue; font-weight:600;">Email Campaigns</h3>
                 <h6>Send e-shots directly from Recruitly, and create stunning campaigns for lead generation and engagement.
               </h6>
               </div>
@@ -69,28 +69,28 @@
             <div class="col-md-4">
               <div class="feature-card">
                 <i class="fa fa-envelope"></i>
-                <h3 style="color:purple; font-weight:600;">Email Templates</h3>
+                <h3 style="color:blue; font-weight:600;">Email Templates</h3>
                 <h6>Create branded and re-usable email templates with our easy-to-use HTML editor.</h6>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-card">
                 <i class="fa fa-users"></i>
-                <h3 style="color:purple; font-weight:600;">Distribution Lists</h3>
+                <h3 style="color:blue; font-weight:600;">Distribution Lists</h3>
                 <h6>Create static distribution lists or link with one of your saved searches..</h6>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-card">
                 <i class="fa fa-users"></i>
-                <h3 style="color:purple; font-weight:600;">Bounce Check</h3>
+                <h3 style="color:blue; font-weight:600;">Bounce Check</h3>
                 <h6>We safeguard your sender reputation by validating emails and checking for bounces before actually sending..</h6>
               </div>
             </div>
             <div class="col-md-4">
               <div class="feature-card">
                 <i class="fa fa-users"></i>
-                <h3 style="color:purple; font-weight:600;">Dedicated IP</h3>
+                <h3 style="color:blue; font-weight:600;">Dedicated IP</h3>
                 <h6>You can opt for a dedicated IP address to take full control of emails sent from your IP to increase inbox placements.
                   .</h6>
               </div>
@@ -98,7 +98,7 @@
             <div class="col-md-4">
               <div class="feature-card">
                 <i class="fa fa-users"></i>
-                <h3 style="color:purple; font-weight:600;">Analytics</h3>
+                <h3 style="color:blue; font-weight:600;">Analytics</h3>
                 <h6>Provides analytics including applications, job boards, placements and many more that allow you to see which job board works better for your job adverts..</h6>
               </div>
             </div>
