@@ -53,13 +53,13 @@
                 </div>
               </div>
 
-<h style="color:green; ">Boost Application Completion Rates</h>
+<h style="color:red; ">Measure Performance</h>
       <section class="testimonials-section">
        
           <div class="container">
-           <h6>One of the most common reasons that candidates desert an application midway through is that the process is simply too long.</h6>
-           <h6>Recruitly solves this problem elegantly by reducing the number of hops required to make a successful application.</h6>
-           <img src
+           <h6>Post your job adverts to job boards and social media channels instantly with Recruitly job posting tool.</h6>
+        <img   width="600" height="600"  src=https://recruitly.io/wp-content/uploads/2021/01/measure-performance.png />
+      
                 </div>
               </div>
              
