@@ -45,6 +45,22 @@
         
       
       </div>
+ <h style="color:red; ">Latest CV Check</h>
+      <section class="testimonials-section">
+       
+          <div class="container">
+           <h6>Receive instant CV alerts when a candidate has updated their profile on CV-Library.</h6>
+           <h6>You can also view and import CV instantly all from within Recruitly ATS System.</h6>
+           
+           <img src = 	https://recruitly.io/wp-content/uploads/2020/11/latest-cv-check.png />
+                </div>
+              </div>
+             
+   </section>
+  
+
+
+
       <h style="color:blue; ">CV Search & Import</h>
       <section class="testimonials-section">
        
