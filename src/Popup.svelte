@@ -1,42 +1,60 @@
 <script>
-    export let closePopup;
-  </script>
-  
-  <div class="popup">
-    <h3>Why Recruitly?</h3>
-    
-	 <div class="popup" on:click={closePopup}>
-	  
-        <div class="popup-content">
-          <button class="close-button" on:click={closePopup}>&times;</button>
-          <div class="popup-section">
-            <h3>Email Marketing</h3>
-            <p class="custom-paragraph">Engage talent at the right time, promote your business to the right audience.</p>
-          </div>
-          <div class="popup-section">
-            <h3>Applicant Tracking System</h3>
-            <p class="custom-paragraph">Candidate sharing, boolean searches, interview scheduling, automation and more.</p>
-          </div>
-          <div class="popup-section">
-            <h3>Website Integration</h3>
-            <p class="custom-paragraph">Turn your WordPress website into a fully featured job-board using our FREE plugins.</p>
-          </div>
-          <div class="popup-section">
-            <h3>Job Distribution</h3>
-            <p class="custom-paragraph">Get your job in front of millions of candidates, manage applicants in one place.</p>
-          </div>
-          <div class="popup-section">
-            <h3>Search & Import</h3>
-            <p class="custom-paragraph">Search and import candidates from CV-Library and TotalJobs with just a few clicks.</p>
-          </div>
-          <div class="popup-section">
-            <h3>Recruiting Automation</h3>
-            <p class="custom-paragraph">Boost your team's productivity by creating workflows that automate repetitive and common tasks.</p>
-          </div>
-        </div>
-      </div>
-    <button on:click={closePopup}>Close</button>
+  export let closePopup;
+</script>
+
+<div class="popup" on:click={closePopup}>
+  <div class="popup-content">
+    <button class="close-button" on:click={closePopup}>&times;</button>
+    <div class="popup-section">
+      <Route path="/email-marketing">
+        <Link to="/email-marketing">
+          <h3>Email Marketing</h3>
+        </Link>
+      </Route>
+      <p class="custom-paragraph">Engage talent at the right time, promote your business to the right audience.</p>
+    </div>
+    <div class="popup-section">
+      <Route path="/applicant-tracking-system">
+        <Link to="/applicant-tracking-system">
+          <h3>Applicant Tracking System</h3>
+        </Link>
+      </Route>
+      <p class="custom-paragraph">Candidate sharing, boolean searches, interview scheduling, automation and more.</p>
+    </div>
+    <div class="popup-section">
+      <Route path="/website-integration">
+        <Link to="/website-integration">
+          <h3>Website Integration</h3>
+        </Link>
+      </Route>
+      <p class="custom-paragraph">Turn your WordPress website into a fully featured job-board using our FREE plugins.</p>
+    </div>
+    <div class="popup-section">
+      <Route path="/job-distribution">
+        <Link to="/job-distribution">
+          <h3>Job Distribution</h3>
+        </Link>
+      </Route>
+      <p class="custom-paragraph">Get your job in front of millions of candidates, manage applicants in one place.</p>
+    </div>
+    <div class="popup-section">
+      <Route path="/search-import">
+        <Link to="/search-import">
+          <h3>Search & Import</h3>
+        </Link>
+      </Route>
+      <p class="custom-paragraph">Search and import candidates from CV-Library and TotalJobs with just a few clicks.</p>
+    </div>
+    <div class="popup-section">
+      <Route path="/recruiting-automation">
+        <Link to="/recruiting-automation">
+          <h3>Recruiting Automation</h3>
+        </Link>
+      </Route>
+      <p class="custom-paragraph">Boost your team's productivity by creating workflows that automate repetitive and common tasks.</p>
+    </div>
   </div>
+</div>
   
   <style>
    
