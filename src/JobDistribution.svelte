@@ -44,13 +44,12 @@
         
       
       </div>
-      <h style="color:blue; ">Simplified Applicant Management</h>
+      <h style="color:yellow; ">Simplified Applicant Management</h>
       <section class="testimonials-section">
        
           <div class="container">
            <h6>Jobs are posted automatically to job boards with the link to apply in the ATS. Applicants create their account and</h6>
-           <h6>your vacancies to multiple job boards, social media, and to your</h6>
-           <h6>website instantly.</h6>
+           <h6>your vacancies to multiple job boards, social media, and to your website instantly.</h6>
                 </div>
               </div>
              
