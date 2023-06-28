@@ -1,8 +1,8 @@
 <script>
-    import 'bootstrap/dist/css/bootstrap.min.css';
-    import { Link } from "svelte-routing";
-    import { createEventDispatcher } from 'svelte';
-    import Popup from './Popup.svelte';
+import { createEventDispatcher } from 'svelte';   
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "svelte-routing";
+import Popup from './Popup.svelte';
    
   
   
