@@ -45,7 +45,7 @@
     </div>
 
 
-    <img src = "https://recruitly.io/wp-content/uploads/2020/11/email-templates@2x-1024x800.png" alt="Recruitly Email Templates" style="width: 100%; max-width: 500px; margin-bottom: 50px />
+    <img src = "https://recruitly.io/wp-content/uploads/2020/11/email-templates@2x-1024x800.png" alt="Recruitly Email Templates" style="width: 100%; max-width: 500px; margin-bottom: 50px" />
 
 
   
