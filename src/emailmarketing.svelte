@@ -53,7 +53,6 @@
 <p style="color:black; font-weight: 700;">You can track everything from who opened and clicked your campaigns, health of your email lists and performance of your campaigns and segments.</p>
 <p style="color:black; font-weight: 600;">Gain valuable insights to shape your email marketing strategies.</p>
   
-<img src = https://recruitly.io/wp-content/uploads/2020/11/email-marketing-banner@2x.png />
 
 <section class="testimonials-section">
       <table>
