@@ -52,17 +52,6 @@
            <h6>your vacancies to multiple job boards, social media, and to your website instantly.</h6>
                 </div>
               </div>
-
-<h style="color:red; ">Measure Performance</h>
-      <section class="testimonials-section">
-       
-          <div class="container">
-           <h6>Post your job adverts to job boards and social media channels instantly with Recruitly job posting tool.</h6>
-        <img   width="600" height="600"  src=https://recruitly.io/wp-content/uploads/2021/01/measure-performance.png />
-      
-                </div>
-              </div>
-             
              
    </section>
   
@@ -168,4 +157,6 @@
   
    
   </style>
+  
+
   
