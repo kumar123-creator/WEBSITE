@@ -1,11 +1,9 @@
 <script>
-    import 'bootstrap/dist/css/bootstrap.min.css';
-    import { Link } from "svelte-routing";
-    import { createEventDispatcher } from 'svelte';
-    import Popup from './Popup.svelte';
+import { createEventDispatcher } from 'svelte';    
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from "svelte-routing";
+import Popup from './Popup.svelte';
    
-  
-  
     let isPopupOpen = false;
     const dispatch = createEventDispatcher();
   
@@ -59,7 +57,7 @@
                 <div class="feature-card">
                   <i class="fa fa-search"></i>
                   <img  src="https://recruitly.io/wp-content/uploads/2020/12/engage2-150x150.png"  />
-                  <h3 style="color:purple; font-weight:600;">Reach & Engage</h3>
+                  <h3 style="color:blue; font-weight:600;">Reach & Engage</h3>
                   <h6>Create an unbeatable candidate and client experience by initiating and maintaining a one-on-one dialogue directly from your Recruitly account and reduce time and cost to fill.
                 </h6>
                 </div>
@@ -68,7 +66,7 @@
                 <div class="feature-card">
                   <i class="fa fa-envelope"></i>
                   <img src=https://recruitly.io/wp-content/uploads/2020/12/interviewschedule2-150x150.png />
-                  <h3 style="color:purple; font-weight:600;">Take Charge</h3>
+                  <h3 style="color:blue; font-weight:600;">Take Charge</h3>
                   <h6>Create an unbeatable candidate and client experience by initiating and maintaining a one-on-one dialogue directly from your Recruitly account and reduce time and cost to fill..</h6>
                 </div>
               </div>
@@ -76,7 +74,7 @@
                 <div class="feature-card">
                   <i class="fa fa-users"></i>
                   <img src=	https://recruitly.io/wp-content/uploads/2020/12/starplacement2-150x150.png />
-                  <h3 style="color:purple; font-weight:600;">More Placements</h3>
+                  <h3 style="color:blue; font-weight:600;">More Placements</h3>
                   <h6>From job posting to placement management – Recruitly offers all the tools you need to successfully operate your recruitment business and to be productive and make more placements.</h6>
                 </div>
               </div>
