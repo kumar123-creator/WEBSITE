@@ -29,9 +29,9 @@
     </nav>
   </div>
   {#if isPopupOpen}
-  <div class="popup">
+  <div class="popup" on:click={closePopup}>
     <h3>Why Recruitly?</h3>
-    <div class="popup-content" on:click={closePopup}>
+    <div class="popup-content">
       <button class="close-button" on:click={closePopup}>&times;</button>
       <div class="popup-section">
         <Link to="/email-marketing"><h3>Email Marketing</h3></Link>
@@ -61,6 +61,7 @@
   </div>
   {/if}
 </section>
+
 <style>
   /* Popup styles */
   /* ... */
