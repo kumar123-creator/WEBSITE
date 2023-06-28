@@ -69,10 +69,11 @@ const dispatch = createEventDispatcher();
       <Link to="/automation" class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Automation</Link>
       <span class="spacer"></span>
       <Link to="/pricing" class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Pricing</Link>
-      <Route path="/automation" component={RecruitingAutomation} />
-      <Route path="/pricing" component={RecruitingPricing} />
-                <Route path="/Emailmarketing" component={emailmarketing} />
-		  <Route path="/ApplicationTracking_System" component={ApplicationTrackingSystem } />
+     
+                  <Route path="/automation" component={RecruitingAutomation} />
+                  <Route path="/pricing" component={RecruitingPricing} />
+                  <Route path="/Emailmarketing" component={emailmarketing} />
+		  <Route path="/Application_Tracking_System" component={ApplicationTrackingSystem } />
 		  <Route path="/Website_Integration"  component={WebsiteIntegration } />
 		  <Route path="/Job_Distribution"  component={JobDistribution} />
 		  <Route path="/Search_Import"  component={SearchImport} />
@@ -313,8 +314,13 @@ const dispatch = createEventDispatcher();
 	.modal {
 	  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to control transparency */
 	}
-  
-  
-	
+            img {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 80px; /* Adjust the left position as needed */
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  	
   </style>
   
