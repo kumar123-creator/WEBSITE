@@ -36,20 +36,25 @@
       </ul>
     </nav>
   </div>
- <div class="email-component">
+  <div class="email-component">
     <div class="hero-section">
       <h2 style="color: darkmagenta;">Recruitment Email Marketing</h2>
-      <p style="color:black; font-weight: 700;">Reach your audience and improve your branding, with an email marketing solution </p>
-      <p style="color:black; font-weight: 600;">built right into  recruitment database.</p>
-    
+      <p style="color:black; font-weight: 700;">Reach your audience and improve your branding, with an email marketing solution built right into  recruitment database. </p>
+     <p style="color:red; font-weight: 1000;">Design Beautiful Templates</p>
+    <p style="color:black; font-weight: 600;">Recruitly's intuitive email editor offers easiest, quickest way to design elegant, mobile responsive emails with little effort. </p>
     </div>
-    <img src = https://recruitly.io/wp-content/uploads/2020/11/personalised-templates.png />
+
+
+    <img src = "https://recruitly.io/wp-content/uploads/2020/11/email-templates@2x-1024x800.png" alt="Recruitly Email Templates" style="width: 100%; max-width: 500px; margin-bottom: 50px" />
+
+
 
 <p style="color:green; font-weight: 900;">Measure Performance</p>
 <p style="color:black; font-weight: 700;">You can track everything from who opened and clicked your campaigns, health of your email lists and performance of your campaigns and segments.</p>
 <p style="color:black; font-weight: 600;">Gain valuable insights to shape your email marketing strategies.</p>
   
-    <section class="testimonials-section">
+
+<section class="testimonials-section">
       <table>
         <div class="container">
           <div class="row">
@@ -205,3 +210,4 @@
 
  
 </style>
+
