@@ -70,7 +70,6 @@
            
            <img src = 	https://recruitly.io/wp-content/uploads/2020/11/cv-search-filters.svg />
                 </div>
-              </div>
              
    </section>
   
