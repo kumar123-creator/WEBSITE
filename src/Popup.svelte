@@ -2,18 +2,36 @@
   import { Link } from 'svelte-routing';
   import { createEventDispatcher } from 'svelte';
 
-  export let closePopup;
+  let isPopupOpen = false;
   const dispatch = createEventDispatcher();
 
   function openWhyRecruitlyPopup() {
-    dispatch('openWhyRecruitlyPopup', { closePopup });
+    isPopupOpen = true;
   }
+
+  function closePopup() {
+    isPopupOpen = false;
+  }
+
+  dispatch('openWhyRecruitlyPopup', { closePopup });
 </script>
 
-<div class="popup">
-  <h3>Why Recruitly?</h3>
-  <div class="popup" on:click={closePopup}>
-    <div class="popup-content">
+<section class="recruiting-automation-section">
+  <div class="links">
+    <nav>
+      <ul>
+        <a on:click={openWhyRecruitlyPopup} class="why-recruitly-anchor" style="color: blue; font-weight: 700;">Why Recruitly</a>
+        <span class="spacer"></span>
+        <li><Link to="/automation" style="color:blue; font-weight: 700;">Automation</Link></li>
+        <span class="spacer"></span>
+        <li><Link to="/pricing" style="color:blue; font-weight: 700;">Pricing</Link></li>
+      </ul>
+    </nav>
+  </div>
+  {#if isPopupOpen}
+  <div class="popup">
+    <h3>Why Recruitly?</h3>
+    <div class="popup-content" on:click={closePopup}>
       <button class="close-button" on:click={closePopup}>&times;</button>
       <div class="popup-section">
         <Link to="/email-marketing"><h3>Email Marketing</h3></Link>
@@ -41,9 +59,8 @@
       </div>
     </div>
   </div>
-  <button on:click={closePopup}>Close</button>
-</div>
-
+  {/if}
+</section>
 <style>
   /* Popup styles */
   /* ... */
